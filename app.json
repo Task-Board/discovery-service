@@ -1,0 +1,12 @@
+{
+  "name": "Eureka Server Registry",
+  "description": "Eureka Server Registry for Task Boards project.",
+  "website": "https://github.com/leoeberts/taskboards-serviceregistry",
+  "success_url": "/",
+  "env": {
+      "EUREKA_USER_PASSWORD": {
+          "description": "Password for the admin interface.",
+          "generator": "secret"
+      }
+  }
+}

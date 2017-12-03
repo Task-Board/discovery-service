@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-registry 
+  cloud:
+    config:
+      uri: http://task-boards-configuration.herokuapp.com/
+
+management:
+  security:
+    enabled: false
